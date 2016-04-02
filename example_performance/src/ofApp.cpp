@@ -30,6 +30,8 @@ void ofApp::setup()
 {
     testOutput();
     // testPWM();
+
+    ofExit();
 }
 
 void ofApp::testOutput()
