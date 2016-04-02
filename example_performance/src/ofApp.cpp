@@ -120,6 +120,7 @@ void ofApp::testOutput()
         std::cout << "# Pulses: " << numPulses << " in " << ns << std::endl;
         std::cout << "\tPeriod: " << period << " ns." << std::endl;;
         std::cout << "\t  Freq: " << frequency << " Hz (" << frequencyMHz << " MHz)" << std::endl;
+        std::cout << std::endl;
     }
 
     shortestPeriod = std::min(shortestPeriod, period);
