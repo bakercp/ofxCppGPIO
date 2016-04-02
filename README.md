@@ -26,3 +26,7 @@ min-sleep-test:
 
 Minimum sleep time is 60816 ns (60.816 μs)
 ```
+
+Square Waves
+
+![Screenshot](https://github.com/bakercp/ofxCppGPIO/raw/master/docs/screen.png)
