@@ -5,6 +5,8 @@ This is currently designed to work with Raspberry Pi and is an alternative to th
 
 See the examples for use.
 
+## Performance
+
 A quick performance test on a Raspberry Pi 3 in Release mode:
 
 ```
@@ -27,6 +29,9 @@ min-sleep-test:
 Minimum sleep time is 60816 ns (60.816 μs)
 ```
 
-Square Waves
+![Screenshot](https://github.com/bakercp/ofxCppGPIO/raw/master/docs/screen_41.7MHz.png)
+_41.7MHz Square(ish) Wave_
+
+## A Collection of Square Waves
 
 ![Screenshot](https://github.com/bakercp/ofxCppGPIO/raw/master/docs/screen.png)
