@@ -111,7 +111,7 @@ void ofApp::testOutput()
 
         int64_t ns = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start).count();
 
-        auto thisPeriod = ns / numPulses;
+        period = ns / numPulses;
 
         frequency = nanoSecondsPerSecond / period;
         frequencyMHz = frequency / secondsPerMegaSecond;
