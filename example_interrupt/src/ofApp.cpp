@@ -48,7 +48,6 @@ void ofApp::setup()
     catch (const std::exception& exc)
     {
         std::cout << exc.what() << std::endl;
-        std::cout << "This is probably because you are not on compatible machine." << std::endl;
     }
 }
 
