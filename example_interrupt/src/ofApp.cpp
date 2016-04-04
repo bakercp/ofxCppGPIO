@@ -44,6 +44,9 @@ void ofApp::setup()
         input->f_switched = [](bool value) {
             std::cout << "Switched: " << value << std::endl;
         };
+
+	// Start must be called to initiate the polling thread.	
+	input->start();
     }
     catch (const std::exception& exc)
     {
