@@ -1,9 +1,11 @@
 # ofxCppGPIO
-A openFrameworks addon wrapping CppGPIO, a C++11 GPIO library for embedded systems on Linux.
+An openFrameworks addon wrapping [CppGPIO](https://github.com/JoachimSchurig/CppGPIO), a C++11 GPIO library for embedded systems on Linux.
 
 This is currently designed to work with Raspberry Pi and is an alternative to the slower SYSFS GPIO approach.
 
 See the examples for use.
+
+## Performance
 
 A quick performance test on a Raspberry Pi 3 in Release mode:
 
@@ -27,6 +29,10 @@ min-sleep-test:
 Minimum sleep time is 60816 ns (60.816 μs)
 ```
 
-Square Waves
+![Screenshot](https://github.com/bakercp/ofxCppGPIO/raw/master/docs/screen_41.7MHz.png)
+
+_41.7MHz Square(ish) Wave_
+
+## A Collection of Square Waves
 
 ![Screenshot](https://github.com/bakercp/ofxCppGPIO/raw/master/docs/screen.png)

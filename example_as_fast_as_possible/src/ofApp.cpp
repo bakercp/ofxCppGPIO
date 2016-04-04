@@ -34,6 +34,7 @@ void ofApp::setup()
     {
         out.on();
         out.off();
+        
     }
 }
 
