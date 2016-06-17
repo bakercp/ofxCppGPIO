@@ -33,6 +33,8 @@ void ofApp::setup()
     {
         input = std::make_unique<GPIO::DirectIn>(4);
 
+        input->start();
+
         input->f_on = []() {
             std::cout << "Input On!" << std::endl;
         };
